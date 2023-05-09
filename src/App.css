@@ -13,6 +13,13 @@ header {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
 
+/* images */
+
+img {
+  max-height: 100px;
+  width: auto;
+}
+
 /* typography */
 
 html {
