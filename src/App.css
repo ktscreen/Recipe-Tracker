@@ -11,7 +11,12 @@ label {
 
 header {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  font-family: 'Playfair Display SC';
+  text-align: center;
+  font-size: xx-large;
 }
+
+
 
 /* images */
 
@@ -28,6 +33,7 @@ html {
 
 thead th, tfoot th {
   font-family: 'Rock Salt';
+  font-size: larger;
 }
 
 th {
@@ -54,14 +60,13 @@ table {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
 
+tbody tr:nth-child(odd) {
+  background-color: antiquewhite;
+}
+
 .content_td p {
   max-width: 100%;
   max-height: 100px;
   overflow-y: auto;
   text-overflow: ellipsis;
 }
-
-/* Column Size for thead */
-
-
-/* Column size for tbody */
